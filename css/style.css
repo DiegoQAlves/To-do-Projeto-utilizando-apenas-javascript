@@ -1,0 +1,35 @@
+.card-tarefa {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 30px 20px;
+  box-shadow: 1px 7px 8px -7px;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  bottom: 0;
+}
+
+.tarefa-concluida {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.8;
+}
+
+.tarefa-concluida div .botao-tarefa {
+  display: none;
+}
+
+#tarefa-digitada {
+  width: 45%;
+  margin-right: 20px;
+}
+
+#concluidas {
+}
